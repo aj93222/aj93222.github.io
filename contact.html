@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Back in the Game</title>
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<!-- Styling -->
+		<link rel="stylesheet" href="contact.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Average&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light mb-4" style="background-color: #ECEEFF">
+			<div class="container-fluid">
+				<!-- Clicking on the Logo goes to the Homepage (Linked to Homepage) -->
+				<a href="index.html"><img src="img/logo.png" alt="" width="120" height="80"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="nav navbar-nav ms-auto">
+					<!-- Home Nav -->
+					<li class="nav-item">
+						<a class="nav-link active" style="margin-right: 30px;" aria-current="page" href="index.html">Home</a>
+					</li>
+					<!-- About Nav -->
+					<li class="nav-item">
+						<a class="nav-link active" style="margin-right: 30px" href="about.html">About</a>
+					</li>
+					<!-- Programs Nav with Dropdown for Athletes and Performers -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" style="color: black; margin-right: 30px;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Programs</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="programs_athlete.html">Athletes</a></li>
+							<li><a class="dropdown-item" href="programs_performer.html">Performers</a></li>
+						</ul>
+					</li>
+					<!-- Podcasts Nav -->
+					<li class="nav-item">
+						<a class="nav-link active" style="margin-right: 30px" href="podcasts.html">Podcasts</a>
+					</li>
+					<!-- Contact Nav -->
+					<li class="nav-item">
+						<a class="nav-link active" style="margin-right: 30px" href="contact.html">Contact</a>
+					</li>
+				</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Page content -->
+		<br>
+		<!-- This is the Contact Section of the Contact Page -->
+		<!-- This lists out all contact information for Back in the Game -->
+		<div class="container">
+			<div class="row">
+				<div class = "col-12 col-md-6">
+					<br>
+					<br>
+					<h3 class = "averageFont">Contact Us</h3>
+					<br>
+					<div class = "contactUs">
+						<p> 
+							<b>Back in the Game:</b> 
+							<br>
+							<br>
+							<!-- Mobile (Phone Number) Information -->
+							<b>Mobile:</b> (412) 343-0613 
+							<br>
+							<br>
+							<!-- Back in the Game's email -->
+							<b>Email:</b> backinthegameemail@gmail.com 
+							<br>
+							<br>
+							<!-- This is their Fax Number -->
+							<b>Fax:</b> 5XX-XX 
+							<br>
+							<br>
+							<!-- This is Back in the Game's Office -->
+							<b>Office: </b> 20 Cedar Blvd, Suite 204 Pittsburgh PA, 15213 
+						</p>
+					</div>
+				</div>
+				<!-- Contacting Form Submission -->
+				<!-- This is the same column width as the contact information section of column size 6 -->
+				<div class = "col-12 col-md-6">
+					<br><br>
+					<h3 class = "averageFont mailList"> Join Our Mailing List </h3>
+					<!-- This uses our Javascript of the email validation -->
+					<form class="form-inline" onsubmit="return validEmail()">
+						<!-- First & Last Name Box -->
+						<label for="name" class="form-label"><b>First & Last Name:</b></label>
+						<input type="text"  class="form-control" id="name" placeholder="John Smith" required><br>
+
+						<!-- Email Box -->
+
+						<label for="email_address" class="form-label"><b>Enter Email:</b></label>
+						<input type="email" class="form-control" id="email_address" placeholder="johnsmith@gmail.com" required><br>
+
+						<!-- Question & Comments Box -->
+						<label for="comments" class="form-label"><b>Questions, Comments:</b></label>
+						<textarea class="form-control" id="comments" placeholder="Questions?" rows="3"></textarea><br>
+
+						<button type="submit" class="btn btn-primary mb-3">Submit</button>
+					</form>
+
+				</div>
+
+			</div>
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<!-- This is the FAQ section of the Contact Page -->
+		<div>
+			<h3 class = "FAQ averageFont"><b>Frequently Asked Questions</b></h3>
+			<br>
+			<br>
+			<div class="container">
+				<!-- We're using a container and having the first two questions in 2 equal sized columns of size 6 on the first row -->
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<!-- First FAQ -->
+						<em class="averageFont questions">How long is the program?</em>
+						<br>
+						<br>
+						<p>
+						The program is a self-paced program. There are 8 total modules with PowerPoint presentations and exercises. It is suggested that you take your time and begin to incorporate the exercies and knowledge you gain into your current training.
+						</p>
+					</div>
+					<div class="col-12 col-md-6">
+						<!-- Second FAQ -->
+						<em class="averageFont questions">What will I learn from the program?</em>
+						<br>
+						<br>
+						<p class="openSansFont">
+							The Back in the Game ® program will teach you the 6 core mental skills for success. You will be provided with multiple exercises for each skill to help you further develop these skills.
+						</p>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-0 col-md-3">
+					</div>
+					<!-- Since there is 3 questions, we placed the third question on its own row in a center column -->
+					<!-- We placed columns sized 3 on the left and right side that are empty and column sized 6 for this question -->
+					<div class="col-12 col-md-6">
+						<em class = "averageFont questions">Is this program for individual and teams?</em>
+						<br>
+						<br>
+						<p>
+						This program is designed for both individuals and teams. You can use this to further develop your individual mental health game or coaches can use this for their team to provide an additional resource to their players.
+						</p>
+						<br>
+					</div>
+					<div class="col-0 col-md-3">
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container p-4 pb-0">
+				<!-- Social media icons and links -->
+				<div class="mb-4">
+					<a href="https://www.facebook.com/BetterInstitute/">
+						<span class="facebook"> <img src="img/fb.png" alt="" width ="50" height="50"></span>
+					</a>
+					<a href="https://www.linkedin.com/company/betterinstitute">
+						<span class="linkedin"> <img src="img/linkedin.png" alt="" width ="50" height="50"></span>
+					</a>
+				</div>
+				<!-- Copyright for Better Institute -->
+				<p>© Copyright Learn with The Better Institute® 2021</p>
+			</div>
+		</footer>
+
+		<!-- Link to Javascript for Email Validation-->
+		<script src = "valid_email.js"></script>
+	</body>
+</html>

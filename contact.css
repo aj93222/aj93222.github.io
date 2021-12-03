@@ -1,0 +1,85 @@
+/* Sorted alphabetically based on three groups: tags, ids, and classes */
+
+/* Tags */
+
+body {
+	font-family: "Roboto";
+	line-height: 20px;
+	font-size: 30px;
+}
+
+nav a:hover {
+	background-color: white;
+}
+
+/* Classes */
+
+.averageFont {
+	font-family: Average;
+	src: url("https://fonts.googleapis.com/css2?family=Average&display=swap");
+}
+
+.contactUs {
+	font-size: 17px
+}
+
+.FAQ {
+	text-align:center
+}
+
+.footer {
+	display: block;
+	float: left;
+	background-color: #ECEEFF;
+	text-align: center;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.6em;
+}
+
+.logoShift {
+	margin-left: 15px
+}
+
+.mailList {
+	text-align:center
+}
+
+.navbar1 {
+	overflow: hidden;
+	background-color: #ECEEFF;
+	justify-content: none;
+}
+
+.navbar1 a {
+	float: right;
+	color: black;
+	text-align: center;
+	/*margin-left: 0px;*/
+	padding: 30px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: Source Serif Pro;
+	padding-left:0;
+	margin:0;
+}
+
+.navbar1 h1{
+	float: left;
+	color: black;
+	font-family: Source Serif Pro;
+	
+}
+
+.questions{
+	font-size: 20px;
+}
+
+.submitButton{
+	background-color:#ECEEFF;
+	text-align: center;
+}
+

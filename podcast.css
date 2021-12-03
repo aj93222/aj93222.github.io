@@ -1,0 +1,22 @@
+/* Sorted alphabetically based on three groups: tags, ids, and classes */
+
+/* Tags */
+
+nav a:hover {
+    background-color: white;
+}
+
+/* Classes */
+
+.footer{
+    display: block;
+    float: left;
+    overflow: auto;
+    background-color: #ECEEFF;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6em;
+}

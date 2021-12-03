@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Styling -->
+    <link rel="stylesheet" href="programs.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Average&display=swap" rel="stylesheet">
+    <title>Programs (Athletes)</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light mb-4" style="background-color: #ECEEFF">
+        <div class="container-fluid">
+            <!-- Clicking on the Logo goes to the Homepage (Linked to Homepage) -->
+            <a href="index.html"><img src="img/logo.png" alt="" width="120" height="80"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="nav navbar-nav ms-auto">
+                <!-- Home Nav -->
+                <li class="nav-item">
+                    <a class="nav-link active" style="margin-right: 30px;" aria-current="page" href="index.html">Home</a>
+                </li>
+                <!-- About Nav -->
+                <li class="nav-item">
+                    <a class="nav-link active" style="margin-right: 30px" href="about.html">About</a>
+                </li>
+                <!-- Programs Nav with Dropdown for Athletes and Performers -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color: black; margin-right: 30px;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Programs</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="programs_athlete.html">Athletes</a></li>
+                        <li><a class="dropdown-item" href="programs_performer.html">Performers</a></li>
+                    </ul>
+                </li>
+                <!-- Podcasts Nav -->
+                <li class="nav-item">
+                    <a class="nav-link active" style="margin-right: 30px" href="podcasts.html">Podcasts</a>
+                </li>
+                <!-- Contact Nav -->
+                <li class="nav-item">
+                    <a class="nav-link active" style="margin-right: 30px" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Swimming picture at top of page -->
+    <div class="container-fluid" style="padding-top: 5%">
+        <img src="img/swimming.png" style="margin: auto; display: block;" width="75%"> </p>
+    </div>
+    <!-- Brief description -->
+    <div class="container-fluid" style="padding-top: 5%; padding-bottom: 5%;">
+        <h2 class="text-center" style="font-family: Average;"> Get started with Back in the Game </h2>
+        <p class="text-center"> Back in the Game® offers individual athletes and teams help in developing the mental skills necessary to take their game to the next level. </p>
+    </div> 
+    <!-- Cards -->
+    <div class="container cts">
+        <!-- First row (two cards) -->
+        <div class="row rs">
+            <!-- Individual online course card -->
+            <div class="card col-10 col-md-4 col-lg-4 cls border-dark" style="margin: auto; display: block; height: 500px; background-color: #80CEE9">
+                <img src="img/individual.png" class="card-img-top program-icon" alt="deal1">
+                <div class="card-body">
+                <!-- Program description-->
+                <h5 class="card-title" style="text-align: center">Individual Online Course - $399</h5> <br>
+                <p class="card-text" style="text-align: center">Includes personalized assignment feedback, 8 module course, mental skills development and mental health/at-risk behavior education, virtual group monthly, 3 face to face virtual meetings</p>
+                <br> <br>
+                <!-- Clicking on Get Started button links to external signup page -->
+                <a href="https://backinthegame.thinkific.com/courses/back-in-the-game" class="btn btn-primary getStarted">Get Started Now</a>
+                </div>
+            </div>
+            <!-- Individual coaching session card -->
+            <div class="card col-10 col-md-4 col-lg-4 cls border-dark" style="margin: auto; display: block; height: 500px; background-color: #80CEE9">
+                <img src="img/individual.png" class="card-img-top program-icon" alt="deal1">
+                <div class="card-body">
+                <!-- Program description-->
+                <h5 class="card-title" style="text-align: center">6 Individual Coaching Sessions - $599</h5> <br>
+                <p class="card-text" style="text-align: center">Includes 6 individual sessions, a mental performance assessment, and an individualized mental workout</p>
+                <br> <br> <br>
+                <!-- Clicking on Get Started button creates a email draft to Rob -->
+                <a href="mailto:rob@betterinstitute.com" class="btn btn-primary getStarted">Get Started Now</a>
+                </div>
+            </div>
+        </div>
+        <!-- Second row (two cards) -->
+        <div class="row rs">
+            <!-- Team coaching card -->
+            <div class="card col-10 col-md-4 col-lg-4 cls border-dark" style="margin: auto; display: block; height: 500px; background-color: #80CEE9">
+                <img src="img/team.png" class="card-img-top program-icon" alt="deal1">
+                <div class="card-body">
+                <!-- Program description-->
+                <h5 class="card-title" style="text-align: center">Team Coaching - $2000</h5> 
+                <br>
+                <p class="card-text" style="text-align: center">Personalized team online course, 3 coaching sessions for coaches and or players- minimum 20 players</p> 
+                <p class="card-text" style="text-align: center; font-size: 12px;">*Additional team and individual sessions upon request</p> <br>
+                <!-- Clicking on Get Started button creates a email draft to Rob -->
+                <a href="mailto:rob@betterinstitute.com" class="btn btn-primary getStarted">Get Started Now</a>
+                </div>
+            </div>
+            <!-- Advanced team coaching card -->
+            <div class="card col-10 col-md-4 col-lg-4 cls border-dark" style="margin: auto; display: block; height: 500px; background-color: #80CEE9">
+                <img src="img/advanced.png" class="card-img-top program-icon" alt="deal1">
+                <div class="card-body">
+                <!-- Program description-->
+                <h5 class="card-title" style="text-align: center">Advanced Team Coaching - $5000</h5> 
+                <br>
+                <p class="card-text" style="text-align: center">8-month program includes personalized team online course, monthly team meetings-minimum 20 players</p> 
+                <p class="card-text" style="text-align: center; font-size: 12px;">*Additional team and individual sessions upon request</p> 
+                <br>
+                <!-- Clicking on Get Started button creates a email draft to Rob -->
+                <a href="mailto:rob@betterinstitute.com" class="btn btn-primary getStarted">Get Started Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- Course Curriculum -->
+    <div class="container-fluid" style="padding: 6%">
+        <h2 class="text-center" style="font-family: Average;"> Course Curriculum </h2>
+    </div>
+    <div class="container-fluid" style="padding-left: 15%; padding-right: 15%; padding-bottom: 5%;"> 
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <!-- 1. Getting Started -->
+            <div class="accordion-item border-dark">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button collapsed" style="background-color: #E8FEFF" type="button" data-bs-toggle="collapse" data-bs-target="#panel1" aria-expanded="false" aria-controls="panel1">
+                    1. Getting Started
+                    </button>
+                </h2>
+                <!-- Accordion panel body -->
+                <div id="panel1" style="background-color: #E8FEFF" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                    - Welcome <br> <br>
+                    - Introduce Yourself <br> <br>
+                    - Are you ready to make the commitment? 
+                    </div>
+                </div>
+            </div>
+            <!-- 2. Back in the Game Intro -->
+            <div class="accordion-item border-dark">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" style="background-color: #E8FEFF" type="button" data-bs-toggle="collapse" data-bs-target="#panel2" aria-expanded="false" aria-controls="panel2">
+                    2. Back in the Game Intro
+                    </button>
+                </h2>
+                <!-- Accordion panel body -->
+                <div id="panel2" style="background-color: #E8FEFF" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                    - Back in the Game Intro Video Lesson <br> <br>
+                    - Back in the Game Intro Key Points <br> <br>
+                    - Back in the Game Mental Skills Evaluation
+                    </div>
+                </div>
+            </div>
+            <!-- 3. Assessment 1 -->
+            <div class="accordion-item border-dark">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" style="background-color: #E8FEFF" type="button" data-bs-toggle="collapse" data-bs-target="#panel3" aria-expanded="false" aria-controls="panel3">
+                    3. Assessment 1
+                    </button>
+                </h2>
+                <!-- Accordion panel body -->
+                <div id="panel3" style="background-color: #E8FEFF" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                    - Assessment I Intro <br> <br>
+                    - GAD-7 <br> <br>
+                    - PHQ-9 <br> <br>
+                    - Schedule Your Individual Intro Session
+                    </div>
+                </div>
+            </div>
+            <!-- 4. Goal Setting -->
+            <div class="accordion-item border-dark">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" style="background-color: #E8FEFF" type="button" data-bs-toggle="collapse" data-bs-target="#panel4" aria-expanded="false" aria-controls="panel4">
+                    4. Goal Setting
+                    </button>
+                </h2>
+                <!-- Accordion panel body -->
+                <div id="panel4" style="background-color: #E8FEFF" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                    - Goal Setting Video Lesson <br> <br>
+                    - Goal Setting Key Points <br> <br>
+                    - Goal Setting Video Exercise Title Page <br> <br>
+                    - Goal Setting Video Exercise <br> <br>
+                    - Goal Setting Article Exercise Title Page <br> <br>
+                    - Goal Setting Article Assignment <br> <br>
+                    - Goal Setting Skill Building Exercise Intro <br> <br>
+                    - Goal Setting Skill Building Exercise #1 <br> <br>
+                    - Goal Setting Skill Building Exercise #2 <br> <br>
+                    - Goal Setting Skill Building Exercise #3 <br> <br>
+                    - Goal Setting Skill Building Exercise #4 <br> <br>
+                    - Goal Setting Quiz
+                    </div>
+                </div>
+            </div>
+            <!-- 5. Preparation -->
+            <div class="accordion-item border-dark">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" style="background-color: #E8FEFF" type="button" data-bs-toggle="collapse" data-bs-target="#panel5" aria-expanded="false" aria-controls="panel5">
+                    5. Preparation
+                    </button>
+                </h2>
+                <!-- Accordion panel body -->
+                <div id="panel5" style="background-color: #E8FEFF" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                    - Preparation Video Lession
+                    </div>
+                </div>
+            </div>
+            <!-- 6. Building Confidence -->
+            <div class="accordion-item border-dark">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" style="background-color: #E8FEFF" type="button" data-bs-toggle="collapse" data-bs-target="#panel6" aria-expanded="false" aria-controls="panel6">
+                    6. Building Confidence
+                    </button>
+                </h2>
+                <!-- Accordion panel body -->
+                <div id="panel6" style="background-color: #E8FEFF" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                    - Building Confidence Video Lesson
+                    </div>
+                </div>
+            </div>
+            <!-- 7. Self-Talk and Visualization -->
+            <div class="accordion-item border-dark">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" style="background-color: #E8FEFF" type="button" data-bs-toggle="collapse" data-bs-target="#panel7" aria-expanded="false" aria-controls="panel7">
+                    7. Self-Talk and Visualization
+                    </button>
+                </h2>
+                <!-- Accordion panel body -->
+                <div id="panel7" style="background-color: #E8FEFF" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                    - Self-Talk and Visualization Video Lesson
+                    </div>
+                </div>
+            </div>
+            <!-- 8. Assessment II -->
+            <div class="accordion-item border-dark">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" style="background-color: #E8FEFF" type="button" data-bs-toggle="collapse" data-bs-target="#panel8" aria-expanded="false" aria-controls="panel8">
+                    8. Assessment II
+                    </button>
+                </h2>
+                <!-- Accordion panel body -->
+                <div id="panel8" style="background-color: #E8FEFF" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                    - Assessment II Intro <br> <br>
+                    - Goal Check <br> <br>
+                    - GAD-7 <br> <br>
+                    - PHQ-9 <br> <br>
+                    - Schedule Your Second Session
+                    </div>
+                </div>
+            </div>
+            <!-- 9. Focus/Motivation -->
+            <div class="accordion-item border-dark">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" style="background-color: #E8FEFF" type="button" data-bs-toggle="collapse" data-bs-target="#panel9" aria-expanded="false" aria-controls="panel9">
+                    9. Focus/Motivation
+                    </button>
+                </h2>
+                <!-- Accordion panel body -->
+                <div id="panel9" style="background-color: #E8FEFF" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                    - Focus and Motivation Video Lesson
+                    </div>
+                </div>
+            </div>
+            <!-- 10. Working Thruogh Adversity -->
+            <div class="accordion-item border-dark">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" style="background-color: #E8FEFF" type="button" data-bs-toggle="collapse" data-bs-target="#panel10" aria-expanded="false" aria-controls="panel10">
+                    10. Working Through Adversity
+                    </button>
+                </h2>
+                <!-- Accordion panel body -->
+                <div id="panel10" style="background-color: #E8FEFF" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                    - Working Through Adversity Video Lesson
+                    </div>
+                </div>
+            </div>
+            <!-- 11. Mental Health and Addiction -->
+            <div class="accordion-item border-dark">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" style="background-color: #E8FEFF" type="button" data-bs-toggle="collapse" data-bs-target="#panel11" aria-expanded="false" aria-controls="panel11">
+                    11. Mental Health and Addiction
+                    </button>
+                </h2>
+                <!-- Accordion panel body -->
+                <div id="panel11" style="background-color: #E8FEFF" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                    - Mental Health Video Lesson
+                    </div>
+                </div>
+            </div>
+            <!-- 12. Assessment III -->
+            <div class="accordion-item border-dark">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" style="background-color: #E8FEFF" type="button" data-bs-toggle="collapse" data-bs-target="#panel12" aria-expanded="false" aria-controls="panel12">
+                    12. Assessment III
+                    </button>
+                </h2>
+                <!-- Accordion panel body -->
+                <div id="panel12" style="background-color: #E8FEFF" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                    - Assessment III <br> <br>
+                    - Goal Check <br> <br>
+                    - GAD-7 <br> <br>
+                    - PHQ-9 <br> <br>
+                    - Schedule Your Final Individual Session
+                    </div>
+                </div>
+            </div>
+            <!-- 13. Completion -->
+            <div class="accordion-item border-dark">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" style="background-color: #E8FEFF" type="button" data-bs-toggle="collapse" data-bs-target="#panel13" aria-expanded="false" aria-controls="panel13">
+                    13. Completion
+                    </button>
+                </h2>
+                <!-- Accordion panel body -->
+                <div id="panel13" style="background-color: #E8FEFF" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                    - Congratulations! <br> <br>
+                    - BIG Mental Skills Training Survey
+                    </div>
+                </div>
+            </div>
+            <!-- 14. References -->
+            <div class="accordion-item border-dark">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" style="background-color: #E8FEFF" type="button" data-bs-toggle="collapse" data-bs-target="#panel14" aria-expanded="false" aria-controls="panel14">
+                    14. References
+                    </button>
+                </h2>
+                <!-- Accordion panel body -->
+                <div id="panel14" style="background-color: #E8FEFF" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                    - References
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container p-4 pb-0">
+            <!-- Social media icons and links -->
+            <div class="mb-4">
+                <a href="https://www.facebook.com/BetterInstitute/">
+                    <span class="facebook"> <img src="img/fb.png" alt="" width ="50" height="50"></span>
+                </a>
+                <a href="https://www.linkedin.com/company/betterinstitute">
+                    <span class="linkedin"> <img src="img/linkedin.png" alt="" width ="50" height="50"></span>
+                </a>
+            </div>
+            <!-- Copyright for Better Institute -->
+            <p>© Copyright Learn with The Better Institute® 2021</p>
+        </div>
+    </footer>
+</body>
+</html>

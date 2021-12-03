@@ -1,0 +1,57 @@
+/* Sorted alphabetically based on three groups: tags, ids, and classes */
+
+/* Tags */
+
+nav a:hover {
+    background-color: white;
+}
+
+/* Classes */
+
+@media (max-width: 991px) {
+    .card {
+        height:600px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .card {
+        height:500px !important;
+    }
+}
+
+.card {
+    margin-bottom: 40px !important;
+}
+
+.footer{
+    display: block;
+    float: left;
+    overflow: auto;
+    background-color: #ECEEFF;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6em;
+}
+
+.getStarted{
+    left: 50%; 
+    display: block; 
+    width: 150px;
+    position: absolute;
+    bottom: 15px;
+    margin-left: -75px;
+}
+
+.program-icon {
+    width: 150px; 
+    height: 150px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

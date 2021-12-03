@@ -1,0 +1,116 @@
+/* Sorted alphabetically based on three groups: tags, ids, and classes */
+
+/* Tags */
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Average', serif;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+/* IDs */
+
+@media (max-width: 767px) {
+    #whiteblock {
+        height: 60%;
+    }
+}
+
+@media (max-width: 991px) {
+    #whiteblock {
+        height: 40%;
+    }
+}
+
+@media (max-width: 1199px) {
+    #whiteblock {
+        height: 30%;
+    }
+}
+
+#whiteblock {
+    max-width: 100%;
+    margin-top: 1em;
+    height: 40%;
+    margin: auto;
+    background-color: white;
+    padding: 5%;
+}
+
+/* Classes */
+
+@media (max-width: 767px) {
+    .bottom {
+        order:2;
+        margin-bottom: 15px;
+        margin: auto;
+    }
+    .top {
+        order:1;
+        margin-bottom: 30px;
+        margin: auto;
+    }
+    .containter, h2, .instructor, h1, h2, p {
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
+    .map {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+    }
+}
+
+.averageFont {
+    font-family: "Average";
+    src: url("https://fonts.googleapis.com/css2?family=Average&display=swap");
+}
+
+.card {
+    box-shadow: 0px 10px 5px grey;
+    background-color: #80CEE9;
+    height: 38em;
+    border: 1px solid black;
+}
+
+.card-title {
+    margin-top: 1em;  
+}
+
+.footer{
+    display: block;
+    float: left;
+    background-color: #ECEEFF;
+    align: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6em;
+}
+
+.instructor{
+    box-shadow: 0px 10px 5px grey;
+    max-width: 90%; 
+    margin:auto;
+}
+
+.logoShift{
+    margin-left: 15px
+}
+
+.map {
+    max-width: 100%;
+    margin-top: 1em;
+    height: 20em;
+    margin: auto;
+}
+
+.online-loc {
+    max-width: 49%;
+    float:none;
+}

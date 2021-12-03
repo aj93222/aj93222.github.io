@@ -1,0 +1,127 @@
+/* Sorted alphabetically based on three groups: tags, ids, and classes */
+
+/* Tags */
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Average', serif;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+/* IDs */
+
+#back-in-the-game {
+    position: relative;
+    top: 100px;
+    left: 30px;
+    font-size: 400%;
+    z-index: 100;
+}
+
+#benefits {
+    float: left;
+}
+
+#carousel-quotes {
+    height: 100px;
+}
+
+#carouselExampleDark {
+    width: 100% !important;
+}
+
+#football {
+    max-width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+#quotes {
+    width: 100%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin: 0px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    box-shadow: 0px 10px 5px grey;
+    background-color: #80CEE9;
+    padding-top: 20px;
+}
+
+#soccer {
+    width: 100%;
+    opacity: 50%;
+    margin-top: -20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 10px 5px grey;
+}
+
+/* Classes */
+
+.averageFont{
+    font-family: "Average";
+    src: url("https://fonts.googleapis.com/css2?family=Average&display=swap");
+}
+
+.carousel-control-next, .carousel-control-prev  {
+    margin-top: -50px;
+}
+
+.carousel-inner {
+    width: 70%;
+    margin: auto;
+}
+
+.carousel-item{
+    margin-bottom: -100px !important;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 200px;
+}
+
+.footer{
+    display: block;
+    float: left;
+    background-color: #ECEEFF;
+    align: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6em;
+}
+
+.home {
+    margin-top: -88px;
+}
+
+.logoShift{
+    margin-left: 15px
+}
+
+.report {
+    margin: auto;
+    background-color: #ECEEFF;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.report-title {
+    width:35%;
+}
+
+.report-body {
+    width:65%;
+    float: right;
+}
+
+.teal {
+    color: #009DD3;
+}
